@@ -1,0 +1,265 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin: 0px;
+    padding: 0px; 
+}
+
+.container {
+    width: 1239px;
+    align-content: center;
+    position: absolute;
+}
+
+.navbar {
+    width: 1239px;
+    height: 70px;
+    font-size: 15px;
+    background-color: white;
+    font-weight: 540;
+    font-family: sans-serif;
+    position: fixed;
+}
+
+.navbar a {
+    text-align: center;
+    padding: 20px 50px 20px 0px;
+}
+
+.nav-left {
+    float: left;
+    padding: 25px 0px 0px 150px;
+}
+
+.nav-right {
+    float: right;
+    padding: 25px 35px 0px 0px;
+  }
+
+.navbar a.active {
+    color: #b09459;
+}
+
+a {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #b09459;
+}
+
+.block1 {
+    background: url("images/image3.png") no-repeat;
+    height: 700px;
+    width: 1239px;
+    background-position: 0px -15px;
+    background-size: 1239px 900px;
+    background-attachment: fixed;
+}
+
+.text1 {
+    font-size: 40px;
+    width: 500px; 
+    padding-top: 220px;
+    color: white;
+    font-family: serif;
+    letter-spacing: 15px;
+    line-height: 70px;
+    margin: auto;
+    text-align: center;
+}
+
+.block2 {
+    width: 1239px;
+    height: 600px;
+    margin: 80px 80px 80px 80px;
+}
+
+.left-box {
+    color: white;
+    height: 550px;
+    width: 350px;
+    float: left;
+    background-color: #af9453;
+    background-image: url("images/flower.png");
+    background-position: center;
+}
+
+.box-title1 {
+    font-family: sans-serif; 
+    margin-top: 120px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 15px;
+}
+
+.box-text1 {
+    font-family: serif;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.box-button1 {
+    background-color: transparent;
+    border: solid 1px white;
+    width: 250px;
+    height: 50px;
+    margin-left: 50px;
+    font-size: 18px;
+    align-items: center;
+    margin-top: 75px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.right-box {
+    background: url("images/image1.png") no-repeat;
+    width: 575px;
+    height: 550px;
+    float: right;
+    padding-right: 245px;
+}
+
+.block3 {
+    margin: auto;
+    width: 1239px;
+    height: 500px;
+}
+
+.quote {
+    font-size: 100px;
+    height: 75px;
+    text-align: center;
+    font-family: serif;
+  }
+
+.text2 {
+    font-family: serif;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    width: 500px;
+    padding-top: 25px;
+    padding-left: 369.5px;
+    padding-right: 369.5px;
+    letter-spacing: 3px;
+    line-height: 50px;
+  }
+
+.text3 {
+    font-size: 18px;
+    padding-top: 40px;
+    text-align: center;
+    color: #af9453 ;
+    font-family: sans-serif;
+}
+
+.block4 {
+    margin: 0px 80px 50px 80px;
+    background: url("images/image2.png") no-repeat;
+    height: 750px;
+    background-attachment: fixed;
+    background-position: left 80px bottom -250px;
+    background-size: 1079px 1090px;
+
+  }
+
+.box2 {
+    width: 300px;
+    height: 500px;
+    margin: 125px 75px 0px 0px ;
+    background-color: #af9453;
+    color: white;
+    float: right;
+    background-image: url("images/flower.png");
+    background-position: center;
+}
+
+.box-title2 {
+    font-family: sans-serif; 
+    margin-top: 100px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 15px;
+}
+
+.box-text2 {
+    font-family: serif;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 5px;
+    line-height: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.box-button2 {
+    background-color: transparent;
+    border: solid 1px white;
+    width: 200px;
+    height: 40px;
+    align-items: center;
+    margin-top: 65px;
+    margin-left: 50px;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;    
+}
+
+.block5 {
+    background-color: #af9453;
+    height: 125px;
+    display: flex;
+    font-size: 15px;
+    color: white;
+    justify-content: center;
+    margin: 80px 80px 30px 80px;
+    padding: 50px;
+    font-family: sans-serif;
+}
+
+.part1 {
+    border-right: 1px solid;
+    border-color: white;
+    font-size: 18px;
+    line-height: 25px;
+    padding-right: 25px;
+    margin: 20px 0px 30px 25px;
+}
+
+.part2 {
+    border-right: 1px solid;
+    border-color: white;
+    font-size: 18px;
+    line-height: 25px;
+    padding-right: 25px;
+    margin: 20px 0px 30px 25px;
+}
+
+.part3 {
+    font-size: 18px;
+    margin: 20px 0px 30px 25px;
+}
+
+.button2 {
+    background-color: transparent;
+    border: solid 1px white;
+    width: 200px;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 100px;
+    color: white;
+}
